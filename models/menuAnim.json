@@ -1,0 +1,81 @@
+{
+    name:"menu/anim",
+	anims:[
+		{name:"menu",  anim:"menu/main.vec"},
+        {name:"logo",  anim:"logo.ascii"},
+	],
+    vertsSets:[
+        {verts:[
+            {name:"main0", x:400 ,y:380 ,z:1},
+            {name:"main1", x:520 ,y:320 ,z:1},
+
+            {name:"title", x:4000, y:320 ,z:1},
+
+            {name:"logo",  x:30 ,y:120 ,z:1},
+            {name:"logo0",  x:30 ,y:120 ,z:0.996},
+            {name:"logo1",  x:30 ,y:120 ,z:0.984},
+        ]}
+    ],
+    frames:[
+        {name:"main_menu",
+        translates:[
+            {vert:"main0",add:"{x:2,y:-1,z:0}"},
+            {vert:"logo0",add:"{z:-0.0002}"}
+        ],
+        faces:[
+            {anim:"menu", frame:0, vert:"main0"},
+
+            {anim:"logo", frame:1, vert:"logo0"},
+            {anim:"logo", frame:0, vert:"logo"},
+        ],
+        time:60,
+        next:"main"},
+
+        {name:"to_title",
+        translates:[
+            {vert:"title",add:"{x:-87,z:0}"},
+        ],
+        faces:[
+            {anim:"menu", frame:1, vert:"title"},
+        ],
+        time:40,
+        next:"title"},
+
+        {name:"from_title",
+        translates:[
+            {vert:"main1",add:"{x:87,z:0}"},
+        ],
+        faces:[
+            {anim:"menu", frame:1, vert:"main1"},
+        ],
+        time:40,
+        next:"main_end"},
+
+        {name:"title",
+        faces:[
+            {anim:"menu", frame:2, vert:"title"},
+        ]},
+
+        {name:"main",
+        translates:[
+            {vert:"main1",add:"{x:-2,y:1,z:0}"},
+            {vert:"logo1",add:"{z:0.0002}"}
+        ],
+        faces:[
+            {anim:"menu", frame:0, vert:"main1"},
+
+            {anim:"logo", frame:1, vert:"logo1"},
+            {anim:"logo", frame:0, vert:"logo"},
+        ],
+        time:60,
+        next:"main_menu"},
+
+        {name:"main_end",
+        faces:[
+            {anim:"menu", frame:0, vert:"main1"},
+
+            {anim:"logo", frame:1, vert:"logo1"},
+            {anim:"logo", frame:0, vert:"logo"},
+        ]}
+    ]
+}

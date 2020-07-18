@@ -1,0 +1,251 @@
+{
+	name:"models/trailer",
+	anims:[
+		{name:"cola", anim:"parts/cola.ascii"},
+		{name:"wheelback", anim:"parts/wheelback.pak"},
+        {name:"wheel", anim:"parts/wheel.pak"},
+		{name:"snowdrift", anim:"environment/snowdrift.pak"}
+	],
+    vertsSets:[
+        {name:"back",
+        verts:[
+            {indx:0 ,x:0   ,y:-80  ,z:0.89},
+            {indx:1 ,x:700 ,y:-80  ,z:0.89},
+            {indx:2 ,x:700 ,y:-380 ,z:0.89},
+            {indx:3 ,x:0   ,y:-380 ,z:0.89},
+
+            {indx:4 ,x:0   ,y:-80  ,z:1},
+            {indx:5 ,x:700 ,y:-80  ,z:1},
+            {indx:6 ,x:700 ,y:-380 ,z:1},
+            {indx:7 ,x:0   ,y:-380 ,z:1},
+
+            {indx:8 ,x:0   ,y:-30  ,z:0.89},
+            {indx:9 ,x:0   ,y:-30  ,z:0.92},
+            {indx:10,x:0   ,y:-80  ,z:0.92},
+
+            {indx:11 ,x:110 ,y:-36  ,z:0.89},
+            {indx:12 ,x:200 ,y:-36  ,z:0.89},
+        ]},
+
+        {name:"front",
+        verts:[
+            {indx:0 ,x:0   ,y:-80  ,z:1.11},
+            {indx:1 ,x:700 ,y:-80  ,z:1.11},
+            {indx:2 ,x:700 ,y:-380 ,z:1.11},
+            {indx:3 ,x:0   ,y:-380 ,z:1.11},
+
+            {indx:4 ,x:0   ,y:-80  ,z:1},
+            {indx:5 ,x:700 ,y:-80  ,z:1},
+            {indx:6 ,x:700 ,y:-380 ,z:1},
+            {indx:7 ,x:0   ,y:-380 ,z:1},
+
+            {indx:8 ,x:0   ,y:-30  ,z:1.11},
+            {indx:9 ,x:0   ,y:-30  ,z:1.08},
+            {indx:10,x:0   ,y:-80  ,z:1.08},
+            
+            {indx:11,x:50  ,y:-80  ,z:1},
+            {indx:12,x:250 ,y:-80  ,z:1},
+            {indx:13,x:240 ,y:-45  ,z:1},
+            {indx:14,x:60  ,y:-45  ,z:1},
+            
+            {indx:15,x:50  ,y:-80  ,z:1.04},
+            {indx:16,x:250 ,y:-80  ,z:1.04},
+            {indx:17,x:240 ,y:-45  ,z:1.03},
+            {indx:18,x:60  ,y:-45  ,z:1.03},
+
+            {indx:19 ,x:100 ,y:-36  ,z:1.11},
+            {indx:20 ,x:190 ,y:-36  ,z:1.11},
+            
+            {name:"cola",x:350,y:-230 ,z:1.11}
+        ]},
+
+        {name:"back_snow",
+        verts:[
+            {indx:0 ,x:0   ,y:-80  ,z:0.89},
+            {indx:1 ,x:580 ,y:-80  ,z:0.89},
+            {indx:2 ,x:580 ,y:-380 ,z:0.89},
+            {indx:3 ,x:0   ,y:-380 ,z:0.89},
+
+            {indx:4 ,x:0   ,y:-80  ,z:1},
+            {indx:5 ,x:580 ,y:-80  ,z:1},
+            {indx:6 ,x:580 ,y:-380 ,z:1},
+            {indx:7 ,x:0   ,y:-380 ,z:1},
+
+            {indx:8 ,x:0   ,y:-30  ,z:0.89},
+            {indx:9 ,x:0   ,y:-30  ,z:0.92},
+            {indx:10,x:0   ,y:-80  ,z:0.92},
+
+            {indx:11,x:110 ,y:-36  ,z:0.89},
+            {indx:12,x:200 ,y:-36  ,z:0.89},
+
+            {indx:13,x:800 ,y:-380 ,z:0.89},
+            {indx:14,x:800 ,y:-380 ,z:1},
+        ]},
+        {name:"front_snow",
+        verts:[
+            {indx:0 ,x:0   ,y:-80  ,z:1.11},
+            {indx:1 ,x:580 ,y:-80  ,z:1.11},
+            {indx:2 ,x:580 ,y:-380 ,z:1.11},
+            {indx:3 ,x:0   ,y:-380 ,z:1.11},
+
+            {indx:4 ,x:0   ,y:-80  ,z:1},
+            {indx:5 ,x:580 ,y:-80  ,z:1},
+            {indx:6 ,x:580 ,y:-380 ,z:1},
+            {indx:7 ,x:0   ,y:-380 ,z:1},
+
+            {indx:8 ,x:0   ,y:-30  ,z:1.11},
+            {indx:9 ,x:0   ,y:-30  ,z:1.08},
+            {indx:10,x:0   ,y:-80  ,z:1.08},
+            
+            {indx:11,x:50  ,y:-80  ,z:1},
+            {indx:12,x:250 ,y:-80  ,z:1},
+            {indx:13,x:240 ,y:-45  ,z:1},
+            {indx:14,x:60  ,y:-45  ,z:1},
+            
+            {indx:15,x:50  ,y:-80  ,z:1.04},
+            {indx:16,x:250 ,y:-80  ,z:1.04},
+            {indx:17,x:240 ,y:-45  ,z:1.03},
+            {indx:18,x:60  ,y:-45  ,z:1.03},
+
+            {indx:19 ,x:100 ,y:-36  ,z:1.11},
+            {indx:20 ,x:190 ,y:-36  ,z:1.11},
+            
+            {indx:21,x:526 ,y:-265 ,z:1.2},
+            {indx:22,x:940 ,y:-265 ,z:1.2},
+            {indx:23,x:800 ,y:-380 ,z:1.11},
+            {indx:24,x:526 ,y:-15  ,z:1.2},
+            {indx:25,x:400 ,y:-15  ,z:1.2},
+            {indx:26,x:400 ,y:200  ,z:1.2},
+            {indx:27,x:940 ,y:200  ,z:1.2},
+            {indx:28,x:800,y:-380 ,z:1},
+            
+            {name:"cola",x:350,y:-230 ,z:1.11}
+        ]}
+    ],
+    frames:[
+        {name:back,verts:"back",
+            faces:[
+            {anim:"wheelback",vert:11},
+            {anim:"wheelback",vert:12},
+
+            {r:140,b:10,type:"fillRect",verts:[0,2]},
+            {r:255,g:255,b:255,verts:[1,2]},
+            {r:255,g:255,b:255,verts:[2,3]},
+            {r:255,g:255,b:255,verts:[0,3]},
+
+            {r:170,b:20,verts:[6,2,5,1]},
+
+            {r:170,b:20,verts:[7,3,6,2]},
+            {r:255,g:255,b:255,verts:[3,7]},
+            {r:255,g:255,b:255,verts:[2,6]},
+            
+            {r:64,g:64,b:64,verts:[8,0,9,10]},
+            {verts:[0,8]},
+            {verts:[8,9]},
+            {verts:[9,10]},
+            
+            {r:170,b:20,verts:[4,0,5,1]},
+            {r:255,g:255,b:255,verts:[0,4]},
+            {r:255,g:255,b:255,verts:[5,1]}
+        ]},
+
+        {name:"front",verts:"front",
+        faces:[
+            {r:64,g:64,b:64,verts:[18,15,14,11]},
+            {r:64,g:64,b:64,verts:[17,16,13,12]},
+
+            {r:64,g:64,b:64,verts:[16,15,17,18]},
+            {verts:[16,17]},
+            {verts:[17,18]},
+            {verts:[15,18]},
+            
+            {r:170,b:20,verts:[6,2,5,1]},
+
+            {r:170,b:20,verts:[7,3,6,2]},
+            {r:255,g:255,b:255,verts:[3,7]},
+            {r:255,g:255,b:255,verts:[2,6]},
+            
+            {r:64,g:64,b:64,verts:[8,0,9,10]},
+            {verts:[0,8]},
+            {verts:[8,9]},
+            {verts:[9,10]},
+            
+            {r:170,b:20,verts:[4,0,5,1]},
+            {r:255,g:255,b:255,verts:[0,4]},
+            {r:255,g:255,b:255,verts:[5,1]},
+            
+            {anim:"wheel",vert:19},
+            {anim:"wheel",vert:20},
+
+            {color:"C70017",type:"fillRect",verts:[0,2]},
+            {anim:"cola",vert:"cola"},
+            {r:255,g:255,b:255,type:"drawRect",verts:[0,2]},
+        ]},
+
+        {name:"back_snow", verts:"back_snow",
+        faces:[
+            {anim:"wheelback",vert:11},
+            {anim:"wheelback",vert:12},
+
+            {anim:"snowdrift",vert:2},
+
+            {r:140,b:10,type:"fillRect",verts:[0,2]},
+            {r:255,g:255,b:255,verts:[2,3]},
+            {r:255,g:255,b:255,verts:[0,3]},
+
+            {r:170,b:20,verts:[7,3,6,2]},
+            {r:255,g:255,b:255,verts:[3,7]},
+            
+            {r:64,g:64,b:64,verts:[8,0,9,10]},
+            {verts:[0,8]},
+            {verts:[8,9]},
+            {verts:[9,10]},
+
+            {r:170,b:20,verts:[4,0,5,1]},
+            {r:255,g:255,b:255,verts:[0,4]},
+
+            {r:245,g:245,b:245,verts:[6,2,14,13]},
+            {verts:[2,6]},
+        ]},
+
+        {name:"front_snow", verts:"front_snow",
+        faces:[
+            {r:64,g:64,b:64,verts:[18,15,14,11]},
+            {r:64,g:64,b:64,verts:[17,16,13,12]},
+
+            {r:64,g:64,b:64,verts:[16,15,17,18]},
+            {verts:[16,17]},
+            {verts:[17,18]},
+            {verts:[15,18]},
+
+            {r:170,b:20,verts:[7,3,6,2]},
+            {r:255,g:255,b:255,verts:[3,7]},
+            {r:245,g:245,b:245,verts:[2,6,23,28]},
+            {verts:[2,6]},
+            
+            {r:64,g:64,b:64,verts:[8,0,9,10]},
+            {verts:[0,8]},
+            {verts:[8,9]},
+            {verts:[9,10]},
+            
+            {r:170,b:20,verts:[4,0,5,1]},
+            {r:255,g:255,b:255,verts:[0,4]},
+            
+            {anim:"wheel",vert:19},
+            {anim:"wheel",vert:20},
+
+            {color:"C70017",type:"fillRect",verts:[0,2]},
+            {anim:"cola",vert:"cola"},
+            {r:255,g:255,b:255,verts:[0,1]},
+            {r:255,g:255,b:255,verts:[2,3]},
+            {r:255,g:255,b:255,verts:[0,3]},
+
+            {anim:"snowdrift",vert:2},
+            {r:245,g:245,b:245,verts:[22,27,24,26,25]},
+            {r:245,g:245,b:245,verts:[21,2,24,23,22]},
+            {verts:[2,21]},
+
+            {anim:"snowdrift",frame:2,vert:21},
+        ]}
+    ]
+}

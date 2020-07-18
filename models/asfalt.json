@@ -1,0 +1,63 @@
+{
+    name:"models/asfalt",
+    vertsSets:[
+        {name:"asfalt_norm",
+        verts:[
+            {indx:0 ,x:0   ,y:0   ,z:0.85},
+            {indx:1 ,x:305 ,y:0   ,z:0.85},
+            {indx:2 ,x:0   ,y:0   ,z:1.15},
+            {indx:3 ,x:305 ,y:0   ,z:1.15},
+            
+            {indx:4 ,x:150 ,y:0   ,z:0.97},
+            {indx:5 ,x:250 ,y:0   ,z:0.97},
+            {indx:6 ,x:150 ,y:0   ,z:1.03},
+            {indx:7 ,x:250 ,y:0   ,z:1.03},
+        ]},
+        {name:"asfalt_up",
+        verts:[
+            {indx:0 ,x:0   ,y:0   ,z:0.3},
+            {indx:1 ,x:300 ,y:0   ,z:0.3},
+            {indx:2 ,x:0   ,y:0   ,z:1.15},
+            {indx:3 ,x:305 ,y:0   ,z:1.15},
+
+            {indx:4 ,x:140 ,y:0   ,z:0.83},
+            {indx:5 ,x:160 ,y:0   ,z:0.83},
+            {indx:6 ,x:160 ,y:0   ,z:0.73},
+            {indx:7 ,x:140 ,y:0   ,z:0.73},
+            
+            {indx:8 ,x:300 ,y:0   ,z:0.85},
+            {indx:9 ,x:305 ,y:0   ,z:0.85},
+            {indx:10,x:0   ,y:0   ,z:0.85},
+            
+            {indx:11,x:140 ,y:0   ,z:0.61},
+            {indx:12,x:160 ,y:0   ,z:0.61},
+            {indx:13,x:160 ,y:0   ,z:0.51},
+            {indx:14,x:140 ,y:0   ,z:0.51},
+            
+            {indx:15,x:140 ,y:0   ,z:0.41},
+            {indx:16,x:160 ,y:0   ,z:0.41},
+            {indx:17,x:160 ,y:0   ,z:0.34},
+            {indx:18,x:140 ,y:0   ,z:0.34},
+        ]}
+    ],
+    frames:[
+        {name:"asfalt_norm",verts:"asfalt_norm",
+        faces:[
+            {color:"404040",verts:[1,0,3,2]},
+            {verts:[0,1]},
+            {color:"ffffff",verts:[5,4,7,6]},
+            {verts:[2,3]},
+        ]},
+
+        {name:"asfalt_up",verts:"asfalt_up",
+        faces:[
+            {color:"404040",verts:[0,1,2,8,3,9]},
+            {verts:[0,10]},
+            {verts:[1,8]},
+            {color:"ffffff",verts:[5,4,6,7]},
+            {color:"ffffff",verts:[12,11,13,14]},
+            {color:"ffffff",verts:[16,15,17,18]},
+            {verts:[2,3]},
+        ]}
+	]
+}

@@ -1,0 +1,225 @@
+{
+    name:"models/mainHouse",
+    anims:[
+		{name:"fireplace",anim:"parts/fireplace.pak"}
+	],
+    vertsSets:[
+        {name:"house_back",
+        verts:[
+            {indx:0 ,x:0    ,y:0    ,z:0.83},
+            {indx:1 ,x:0    ,y:-652 ,z:0.83},
+            {indx:2 ,x:940  ,y:-652 ,z:0.83},
+            {indx:3 ,x:940  ,y:0    ,z:0.83},
+            {indx:4 ,x:0    ,y:0    ,z:1.17},
+            {indx:5 ,x:940  ,y:0    ,z:1.17},
+            {indx:6 ,x:128  ,y:-204 ,z:1},
+            {indx:7 ,x:128  ,y:-172  ,z:1},
+            
+            {indx:8 ,x:0    ,y:-652 ,z:0.81},
+            {indx:9 ,x:0    ,y:-816 ,z:1},
+            {indx:10,x:940  ,y:-816 ,z:1},
+            {indx:11,x:940  ,y:-652 ,z:0.81},
+            
+            {indx:12,x:0    ,y:0    ,z:1},
+            {indx:13,x:0    ,y:-652 ,z:1},
+
+            {indx:14,x:0    ,y:-652 ,z:1},
+            {indx:15,x:940  ,y:-652 ,z:1},
+            
+            {indx:16,x:940  ,y:0    ,z:0.92},
+            {indx:17,x:940  ,y:-264 ,z:0.92},
+            {indx:18,x:940  ,y:-264 ,z:1},
+            {indx:19,x:940  ,y:-416 ,z:1},
+            {indx:20,x:940  ,y:-416 ,z:0.92},
+            {indx:21,x:940  ,y:-524 ,z:0.92},
+            {indx:22,x:940  ,y:-524 ,z:1},
+
+            {indx:23,x:940  ,y:0    ,z:1},
+            
+            {indx:24,x:2    ,y:-204 ,z:1},
+            {indx:25,x:2    ,y:-172 ,z:1},
+            
+            {indx:26,x:938  ,y:-356 ,z:1},
+            {indx:27,x:264  ,y:-356 ,z:1},
+            {indx:28,x:264  ,y:-324 ,z:1},
+            {indx:29,x:938  ,y:-324 ,z:1},
+            
+            {indx:30,x:166  ,y:0    ,z:0.83},
+            {indx:31,x:166  ,y:-116 ,z:0.83},
+            {indx:32,x:344  ,y:-116 ,z:0.83},
+            {indx:33,x:344  ,y:0    ,z:0.83},
+            
+            {indx:34,x:166  ,y:0    ,z:0.92},
+            {indx:35,x:166  ,y:-116 ,z:0.92},
+            {indx:36,x:344  ,y:-116 ,z:0.92},
+            {indx:37,x:344  ,y:0    ,z:0.92},
+            
+            {indx:38,x:356  ,y:-346 ,z:1},
+            {indx:39,x:476  ,y:-346 ,z:1},
+            {indx:40,x:596  ,y:-346 ,z:1},
+            {indx:41,x:716  ,y:-346 ,z:1},
+            
+            {indx:42,x:216  ,y:-116 ,z:0.83},
+            {indx:43,x:216  ,y:-898 ,z:0.83},
+            {indx:44,x:292  ,y:-898 ,z:0.83},
+            {indx:45,x:292  ,y:-116 ,z:0.83},
+            
+            {indx:46,x:216  ,y:-116 ,z:0.88},
+            {indx:47,x:216  ,y:-898 ,z:0.88},
+            {indx:48,x:292  ,y:-898 ,z:0.88},
+            {indx:49,x:292  ,y:-116 ,z:0.88},
+        ]},
+        {name:"house_front",
+        verts:[
+            {indx:0 ,x:0    ,y:0    ,z:1.17},
+            {indx:1 ,x:0    ,y:-652 ,z:1.17},
+            {indx:2 ,x:940  ,y:-652 ,z:1.17},
+            {indx:3 ,x:940  ,y:0    ,z:1.17},
+            {indx:4 ,x:896  ,y:0    ,z:1.17},
+            {indx:5 ,x:896  ,y:-612 ,z:1.17},
+            {indx:6 ,x:44   ,y:-612 ,z:1.17},
+            {indx:7 ,x:44   ,y:0    ,z:1.17},
+            
+            {indx:8 ,x:0    ,y:-652 ,z:1.19},
+            {indx:9 ,x:0    ,y:-816 ,z:1},
+            {indx:10,x:940  ,y:-816 ,z:1},
+            {indx:11,x:940  ,y:-652 ,z:1.19},
+            
+            {indx:12,x:0    ,y:0    ,z:1},
+            {indx:13,x:0    ,y:-652 ,z:1},
+
+            {indx:14,x:0    ,y:-652 ,z:1},
+            {indx:15,x:940  ,y:-652 ,z:1},
+            
+            {indx:16,x:940  ,y:0    ,z:1.08},
+            {indx:17,x:940  ,y:-264 ,z:1.08},
+            {indx:18,x:940  ,y:-264 ,z:1},
+            {indx:19,x:940  ,y:-416 ,z:1},
+            {indx:20,x:940  ,y:-416 ,z:1.08},
+            {indx:21,x:940  ,y:-524 ,z:1.08},
+            {indx:22,x:940  ,y:-524 ,z:1},
+
+            {indx:23,x:940  ,y:0    ,z:1},
+        ]}
+    ],
+    frames:[
+        {name:"house_back",verts:"house_back",
+        faces:[
+            {r:109,g:4,b:21,verts:[1,8,2,11],com:"krbIsha"},
+            {r:109,g:4,b:21,verts:[9,8,10,11],com:"krbIsha"},
+            {verts:[9,10],com:"krbIsha"},
+            {verts:[8,9],com:"krbIsha"},
+            {verts:[11,10],com:"krbIsha"},
+            {verts:[8,11],com:"krbIsha"},
+            
+            {r:180,g:80,b:170,verts:[1,0,2,3],com:"back wall"},
+            {r:199,g:131,b:34,verts:[4,0,5,3],com:"floor"},
+            
+            {verts:[1,2],com:"back wall"},
+            {verts:[0,3],com:"back wall"},
+            
+            {r:109,g:4,b:21,verts:[11,10,15],com:"krbIsha right"},
+            {r:109,g:4,b:21,verts:[8,9,14],com:"krbIsha left"},
+            
+            {r:117,g:117,b:117,verts:[32,36,33,37],com:"kamin right"},
+            {verts:[37,33],com:"kamin right"},
+            {verts:[32,33],com:"kamin right"},
+            
+            {r:117,g:117,b:117,verts:[30,34,31,35],com:"kamin left"},
+            {verts:[34,30],com:"kamin left"},
+            {verts:[30,31],com:"kamin left"},
+
+            {r:127,g:127,b:127,verts:[31,35,32,36],com:"kamin"},
+            {verts:[35,31],com:"kamin"},
+            {verts:[31,32],com:"kamin"},
+            {verts:[32,36],com:"kamin"},
+            
+            
+            {verts:[43,42,44,45],com:"truba back"},
+            
+            {r:113,g:113,b:113,verts:[42,46,43,47],com:"truba left"},
+            {verts:[42,43],com:"truba left"},
+            {verts:[46,42],com:"truba left"},
+            {verts:[47,43],com:"truba left"},
+            
+            {r:113,g:113,b:113,verts:[44,48,45,49],com:"truba right"},
+            {verts:[44,45],com:"truba right"},
+            {verts:[49,45],com:"truba right"},
+            {verts:[48,44],com:"truba right"},
+            
+            {r:123,g:123,b:123,verts:[47,46,48,49],com:"truba"},
+            {verts:[46,47],com:"truba"},
+            {verts:[47,48],com:"truba"},
+            {verts:[48,49],com:"truba"},
+            {verts:[46,49],com:"truba"},
+            
+            {anim:"fireplace",vert:34,com:"kamin"},
+            {verts:[34,35],com:"kamin"},
+            {verts:[35,36],com:"kamin"},
+            {verts:[36,37],com:"kamin"},
+            {verts:[34,37],com:"kamin"},
+            
+            
+            {r:200,g:100,b:190,verts:[1,0,13,12],com:"left wall"},
+            {verts:[8,14],com:"krbIsha left"},
+            {verts:[0,12],com:"left wall"},
+            
+            {r:200,g:100,b:190,verts:[22,15,21,11,16,3],com:"right wall"},
+            {r:200,g:100,b:190,verts:[20,19,17,18],com:"right wall"},
+            {verts:[11,15],com:"krbIsha right"},
+            {verts:[3,23],com:"right wall"},
+            {verts:[16,17],com:"right wall"},
+            {verts:[17,18],com:"right wall"},
+            {verts:[19,20],com:"right wall"},
+            {verts:[20,21],com:"right wall"},
+            {verts:[21,22],com:"right wall"},
+            
+            {r:199,g:131,b:34,verts:[7,6,25,24],com:"down stair"},
+            {verts:[24,6],com:"down stair"},
+            {verts:[6,7],com:"down stair"},
+            {verts:[7,25],com:"down stair"},
+
+            {r:199,g:131,b:34,verts:[27,26,28,29],com:"up floor"},
+            {verts:[26,27],com:"up floor"},
+            {verts:[27,28],com:"up floor"},
+            {verts:[28,29],com:"up floor"},
+        ]},
+
+        {name:"house_front",verts:"house_front",
+        faces:[
+            {r:109,g:4,b:21,verts:[11,10,15],com:"krbIsha right"},
+            {r:109,g:4,b:21,verts:[8,9,14],com:"krbIsha left"},
+
+            {r:200,g:100,b:190,verts:[0,1,12,13],com:"left wall"},
+            {verts:[0,12],com:"left wall"},
+            
+            
+            {r:200,g:100,b:190,verts:[22,15,21,2,16,3],com:"right wall"},
+            {r:200,g:100,b:190,verts:[20,19,17,18],com:"right wall"},
+            {verts:[3,23],com:"right wall"},
+            {verts:[16,17],com:"right wall"},
+            {verts:[17,18],com:"right wall"},
+            {verts:[19,20],com:"right wall"},
+            {verts:[20,21],com:"right wall"},
+            {verts:[21,22],com:"right wall"},
+            
+            
+            {verts:[11,15],com:"krbIsha right"},
+            {verts:[8,14],com:"krbIsha left"},
+            
+            {r:218,g:110,b:207,verts:[7,0,6,1,5,2,4,3],com:"front wall"},
+            {verts:[7,6],com:"front wall"},
+            {verts:[6,5],com:"front wall"},
+            {verts:[5,4],com:"front wall"},
+            {verts:[0,3],com:"front wall"},
+
+            
+            {r:109,g:4,b:21,verts:[8,1,11,2],com:"krbIsha"},
+            {r:109,g:4,b:21,verts:[8,9,11,10],com:"krbIsha"},
+            {verts:[9,10],com:"krbIsha"},
+            {verts:[8,9],com:"krbIsha"},
+            {verts:[11,10],com:"krbIsha"},
+            {verts:[8,11],com:"krbIsha"},
+        ]}
+	]
+}

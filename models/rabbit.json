@@ -1,0 +1,27 @@
+{
+    name:"units/banny",
+    anims:[
+		{name:"face", anim:"faces/banny.pak"},
+        {name:"banny",anim:"units/banny.pak"},
+	],
+    vertsSets:[
+        {verts:[
+           {indx:0},
+        ]}
+    ],
+    blocks:[
+        {name:"banny",
+        faces:[
+            {anim:"banny",frame:0,vert:0},
+            {anim:"banny",frame:1,vert:0},
+            {anim:"banny",frame:2,vert:0},
+            {anim:"banny",frame:3,vert:0},
+            {anim:"face", frame:0,vert:0},
+            {anim:"banny",frame:4,vert:0},            
+        ]}
+    ],
+    frames:[
+        {name:"rabbit",
+        useBlocks:[banny]}
+    ]
+}

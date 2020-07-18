@@ -1,0 +1,137 @@
+{
+	name:"menu/main",
+	anims:[
+		{name:"tiles",  anim:"models/tiles.vec"},
+        {name:"asfalt", anim:"models/asfalt.vec"},
+        {name:"house",  anim:"models/house1.vec"},
+        {name:"tree",   anim:"models/trees.vec"},
+        {name:"trailer",anim:"models/trailer.vec"},
+	],
+    vertsSets:[
+        {verts:[
+            {name:"house", x:346     ,y:201  ,z:1},
+        
+            {name:"asf-6",  x:-2800   ,y:200  ,z:1},
+            {name:"asf-5",  x:-2500   ,y:200  ,z:1},
+            {name:"asf-4",  x:-2200   ,y:200  ,z:1},
+            {name:"asf-3",  x:-1900   ,y:200  ,z:1},
+            {name:"asf-2",  x:-1600   ,y:200  ,z:1},
+            {name:"asf-1",  x:-1300   ,y:200  ,z:1},
+ 
+            {name:"asf0",  x:-1000   ,y:200  ,z:1},
+            {name:"asf1",  x:-700    ,y:200  ,z:1},
+            {name:"asf2",  x:-400    ,y:200  ,z:1},
+            {name:"asf3",  x:-100    ,y:200  ,z:1},
+            {name:"asf4",  x:200     ,y:200  ,z:1},
+            {name:"asf5",  x:500     ,y:200  ,z:1},
+            {name:"asf6",  x:800     ,y:200  ,z:1},
+            
+
+            {name:"back0", x:-10000  ,y:200  ,z:0.08},
+
+            {name:"fore0", x:-1000   ,y:202  ,z:1.2},
+            {name:"fore1", x:-334    ,y:202  ,z:1.2},
+            {name:"fore2", x:333     ,y:202  ,z:1.2},
+
+            {name:"tree0", x:-320    ,y:180  ,z:0.9},
+            {name:"tree1", x:-150    ,y:180  ,z:0.75},
+            {name:"tree2", x:1200    ,y:240  ,z:0.5},
+            {name:"tree3", x:-1850   ,y:240  ,z:0.4},
+            {name:"tree4", x:-1200   ,y:190  ,z:0.6},
+
+            {name:"title_tr", x:-3700   ,y:200  ,z:1},
+        ]}
+    ],
+    blocks:[
+        {name:"back0",
+        faces:[
+            {anim:"tiles",frame:0,vert:"back0"},
+            {anim:"tree",frame:15, vert:"tree3"},
+        ]},
+
+        {name:"back1",
+        faces:[
+            {anim:"tiles",frame:0,vert:"back0"}
+        ],transforms:[{addX:-20000}]},
+
+        {name:"fore0",
+        faces:[
+            {anim:"tiles", frame:1, vert:"fore0"},
+            {anim:"tiles", frame:1, vert:"fore1"},
+            {anim:"tiles", frame:1, vert:"fore2"},
+        ]},
+
+        {name:"main",
+        faces:[
+            {anim:"tree",frame:10, vert:"tree2"},
+            {anim:"house", frame:1, vert:"house"},
+
+            {anim:"asfalt",frame:1, vert:"asf4"},
+
+            {anim:"tree",frame:8, vert:"tree4"},
+            {anim:"tree",frame:5, vert:"tree1"},
+            {anim:"tree",frame:2, vert:"tree0"},
+
+            {anim:"asfalt",frame:0, vert:"asf0"},
+            {anim:"asfalt",frame:0, vert:"asf1"},
+            {anim:"asfalt",frame:0, vert:"asf2"},
+            {anim:"asfalt",frame:0, vert:"asf3"},
+            {anim:"asfalt",frame:0, vert:"asf5"},
+            {anim:"asfalt",frame:0, vert:"asf6"},
+        ],
+        useBlocks:[fore0]},
+
+        {name:"asfalt0",
+        faces:[
+            {anim:"asfalt",frame:0, vert:"asf-6"},
+            {anim:"asfalt",frame:0, vert:"asf-5"},
+            {anim:"asfalt",frame:0, vert:"asf-4"},
+            {anim:"asfalt",frame:0, vert:"asf-3"},
+            {anim:"asfalt",frame:0, vert:"asf-2"},
+            {anim:"asfalt",frame:0, vert:"asf-1"},
+        ]},
+
+        {name:"asfalt1",
+        useBlocks:[asfalt0],
+        transforms:[{addX:-1800}]},
+
+        {name:"title_trailer",
+        faces:[
+            {anim:"trailer",frame:0,vert:"title_tr",flipX:true},
+            {anim:"trailer",frame:1,vert:"title_tr",flipX:true}
+        ]},
+
+        {name:"fore1",
+        useBlocks:[fore0],
+        transforms:[{addX:-2000,scaleX:-1}]},
+
+        {name:"fore2",
+        useBlocks:[fore0],
+        transforms:[{addX:-3333}]},
+    ],
+    frames:[
+        {name:"main_menu",
+        useBlocks:[back0, main]},
+
+        {name:"to_title",
+        useBlocks:[
+            back0,
+            back1,
+            main,
+            asfalt1,
+            title_trailer,
+            asfalt0,
+            fore1,
+            fore2]},
+
+        {name:"title",
+        useBlocks:[
+            back0,
+            back1,
+            asfalt1,
+            title_trailer,
+            asfalt0,
+            fore1,
+            fore2]},
+    ]
+}

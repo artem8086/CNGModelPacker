@@ -1,0 +1,40 @@
+{
+	name:"models/tiles",
+	anims:[
+		{name:"back",anim:"environment/background.pak"},
+        {name:"fore",anim:"environment/foreground.pak"}
+	],
+    vertsSets:[
+        {name:"back",
+        verts:[
+            {indx:0 ,x:0   ,y:0   ,z:1},
+            {indx:1 ,x:1600,y:0   ,z:1},
+            {indx:2 ,x:1600,y:1000,z:1},
+            {indx:3 ,x:0   ,y:1000,z:1},
+        ]},
+        {name:"fore",
+        verts:[
+            {indx:0 ,x:0   ,y:0   ,z:1},
+            {indx:1 ,x:800 ,y:0   ,z:1},
+            {indx:2 ,x:800 ,y:1000,z:1},
+            {indx:3 ,x:0   ,y:1000,z:1},
+        ]}
+    ],
+    frames:[
+        {name:"back",verts:"back",
+        faces:[
+            {r:255,g:255,b:255,type:"fillRect",verts:[0,2]},
+
+            {anim:"back",frame:0,vert:0},
+            {anim:"back",frame:0,vert:1,flipX:true},
+        ]},
+        
+        {name:"fore",verts:"fore",
+        faces:[
+            {r:245,g:245,b:245,type:"fillRect",verts:[0,2]},
+
+            {anim:"fore",frame:0,vert:0},
+            {anim:"fore",frame:0,vert:1,flipX:true},
+        ]}
+    ]
+}
